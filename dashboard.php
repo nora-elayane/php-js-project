@@ -14,7 +14,7 @@
             <div class="avatar-container">
                 <img src="https://via.placeholder.com/100" alt="Avatar" id="profile-avatar">
             </div>
-            <h2 id="profile-name">Hembo Tingor</h2>
+            <h2 id="profile-name"><?php echo  $_COOKIE['user'] ;?></h2>
             <p class="title">Web Designer</p>
             <button class="edit-btn" id="edit-profile-btn" title="Edit Profile">
                 <i class="far fa-edit"></i>
