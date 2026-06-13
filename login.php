@@ -1,3 +1,9 @@
+<?php
+if($_COOKIE["user"] && $_COOKIE["pass"]){
+    header("location:dashboard.php") ;  
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
